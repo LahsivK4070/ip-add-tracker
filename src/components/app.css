@@ -1,6 +1,6 @@
 .top-component{
     padding: 3rem;
-    background-image: url("../src/assets/pattern-bg.png");
+    background-image: url("./pattern-bg.png");
     background-size: cover;
     position: relative;
     height: 17rem;
@@ -31,7 +31,7 @@
 }
 
 .search-btn{
-    background: url("./assets/icon-arrow.svg");
+    background: url("./icon-arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 2.3rem;

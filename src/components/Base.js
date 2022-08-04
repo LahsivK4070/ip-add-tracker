@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import axios from "axios";
-import markPnt from "./assets/icon-location.svg";
+import markPnt from "../components/icon-location.svg";
 import L from "leaflet";
 
 const Base = () => {

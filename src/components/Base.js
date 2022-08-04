@@ -43,7 +43,7 @@ const Base = () => {
             setLng(res.data.location.lng);
             
         } catch (error) {
-            console.log(error);
+            console.log(error.res.data);
         }
     }
 
